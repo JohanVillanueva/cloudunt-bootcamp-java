@@ -9,7 +9,7 @@ import java.util.List;
 @RestController
 public class CatsController {
 
-    @GetMapping("/cats")
+    @GetMapping("/cats2")
     public List<Cat> findCats() {
 
         return List.of(new Cat("Michelin", "white"),
